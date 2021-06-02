@@ -32,3 +32,9 @@ class Javabuzz {
   }
 
 }
+
+let javabuzz = new Javabuzz();
+
+for (let i = 1; i <= 100; i++) {
+  console.log(javabuzz.says(i));
+}
